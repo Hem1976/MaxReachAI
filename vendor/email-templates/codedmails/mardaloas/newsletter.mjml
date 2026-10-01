@@ -1,0 +1,298 @@
+<mjml lang="en">
+  <mj-head>
+    <mj-title>Welcome to [Coded Mails]</mj-title>
+    <mj-preview>Preview - Welcome to Coded Mails</mj-preview>
+    <mj-font
+      name="Inknut Antiqua"
+      href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;500;600&display=swap"
+    />
+    <mj-font
+      name="Montserrat"
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+    />
+    <mj-attributes>
+      <mj-button
+        font-size="14px"
+        line-height="30px"
+        background-color="#fff"
+        color="#000"
+      ></mj-button>
+      <mj-all
+        font-size="14px"
+        line-height="20px"
+        font-family="Montserrat, Helvetica, Arial, sans-serif"
+      ></mj-all>
+      <mj-text font-weight="400" font-size="18px" color="#ddd" line-height="24px"></mj-text>
+      <mj-class font-weight="bold" name="heading" />
+      <mj-class color="#999" name="footer-text" font-size="16px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      h1,
+      h2 {
+        margin: 0;
+        font-size: 36px;
+        line-height: 45px;
+        font-weight: 600;
+        font-family: "Inknut Antiqua", Helvetica, Arial, sans-serif;
+      }
+
+      h2 {
+        font-size: 24px;
+        line-height: 30px;
+      }
+
+      h3 {
+        margin: 0;
+        font-size: 22px;
+        line-height: 26px;
+        font-weight: 600;
+        font-family: "Inknut Antiqua", Helvetica, Arial, sans-serif;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      a {
+        color: #ffffff;
+        text-decoration: underline;
+        font-weight: bold;
+      }
+
+      .date {
+        margin-bottom: 5px;
+        font-size: 14px;
+      }
+
+      .footer-link {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 400;
+      }
+    </mj-style>
+    <mj-style>
+      a,
+      span,
+      td,
+      th {
+        -webkit-font-smoothing: antialiased !important;
+        -moz-osx-font-smoothing: grayscale !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#171919">
+    <mj-section padding-bottom="0px">
+      <mj-column vertical-align="middle">
+        <mj-image src="../../../images/logo-white.png" alt="Logo" align="center" width="150px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-image
+          src="https://ouch-cdn.icons8.com/preview/37/2a89f4b2-888c-4a70-9f27-f4b86bce832c.png"
+          alt="receipt image"
+        />
+        <mj-text>
+          <p>Hi Jane,</p>
+        </mj-text>
+        <mj-text>
+          <h2>Here's what happened while you were away.</h2>
+        </mj-text>
+
+        <mj-text>
+          <p>
+            A wonderful serenity has taken possession of my entire soul, like these sweet mornings
+            of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence
+            in this spot, which was created for the bliss of souls like mine.
+          </p>
+        </mj-text>
+        <mj-button align="left" href="https://google.com">
+          <strong>Read more</strong>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="heading" align="left">
+          <h3>Recommended for you:</h3>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column>
+        <mj-text mj-class="heading" align="left">
+          <p class="date">Janurary 13, 2020</p>
+          <h2>20 Jobs With High Job Satisfaction Rates</h2>
+        </mj-text>
+        <mj-text>
+          <p>
+            B-corp issue outcomes, blended value do-gooder social intrapreneurship catalyze.
+            Outcomes inclusive social entrepreneur, save the world B-corp or venture philanthropy a
+            but.
+          </p>
+        </mj-text>
+
+        <mj-button align="left" href="https://google.com">
+          <strong>Read more</strong>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="30%" vertical-align="middle">
+        <mj-image
+          fluid-on-mobile="true"
+          src="https://images.unsplash.com/photo-1518331483807-f6adb0e1ad23?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+        >
+        </mj-image>
+      </mj-column>
+      <mj-column width="70%" vertical-align="middle">
+        <mj-text mj-class="image-heading" align="left">
+          <p class="date">Janurary 13, 2020</p>
+          <h3>
+            <a href="https://google.com">Lean how creative decisions are made.</a>
+          </h3>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="30%" vertical-align="middle">
+        <mj-image
+          fluid-on-mobile="true"
+          src="https://images.unsplash.com/photo-1518331483807-f6adb0e1ad23?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+        >
+        </mj-image>
+      </mj-column>
+      <mj-column width="70%" vertical-align="middle">
+        <mj-text mj-class="image-heading" align="left">
+          <p class="date">Janurary 13, 2020</p>
+          <h3>
+            <a href="https://google.com">Get silly with your inner circle of friends.</a>
+          </h3>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="50%">
+        <mj-image
+          fluid-on-mobile="true"
+          src="https://images.unsplash.com/photo-1544816565-c199d6f5d2d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+          alt="image description"
+        />
+        <mj-text mj-class="heading" align="left">
+          <p class="date">Janurary 12, 2020</p>
+
+          <h2><a href="https://google.com">Community call for speakers</a></h2>
+        </mj-text>
+
+        <mj-text>
+          <p>
+            Social return on investment unprecedented challenge, gender rights venture philanthropy
+            incubator resilient co-creation youth...
+          </p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image
+          fluid-on-mobile="true"
+          src="https://images.unsplash.com/photo-1518331483807-f6adb0e1ad23?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+          alt="image description"
+        />
+        <mj-text mj-class="heading" align="left">
+          <p class="date">Janurary 12, 2020</p>
+
+          <h2>
+            <a href="https://google.com">Increased support for Leaders</a>
+          </h2>
+        </mj-text>
+
+        <mj-text>
+          <p>
+            Social return on investment unprecedented challenge, gender rights venture philanthropy
+            incubator resilient co-creation youth....
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#000" border-radius="4px">
+      <mj-column>
+        <mj-text color="#fff" mj-class="heading" align="left">
+          <p class="date">EDITORS CHOICE</p>
+
+          <h2>Social enterprise; inspiring support, shared value fairness.</h2>
+        </mj-text>
+        <mj-text color="#fff">
+          <p>
+            B-corp issue outcomes, blended value do-gooder social intrapreneurship catalyze.
+            Outcomes inclusive social entrepreneur, save the world B-corp or venture philanthropy a
+            but.
+          </p>
+        </mj-text>
+
+        <mj-button align="left" href="https://google.com">
+          <strong>Read more</strong>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text align="left" mj-class="footer-text">
+          <p>
+            Have questions or need help? Email us at
+            <a href="mailto:">hello@codedmails.com</a>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- CUSTOMIZE: FOOTER START -->
+    <mj-section full-width="full-width" background-color="#000">
+  <mj-column>
+    <mj-text align="center" mj-class="footer-text">
+      <a class="footer-link" href="#">Support</a> &nbsp; | &nbsp;
+      <a class="footer-link" href="#">Privacy Policy</a>
+    </mj-text>
+
+    <mj-text mj-class="footer-text" align="center">
+      123 Medalling Jr., Suite 100, Parrot Park, CA 12345
+    </mj-text>
+
+    <mj-social mode="horizontal" align="center">
+      <mj-social-element
+        alt="twitter-logo"
+        icon-size="24px"
+        src="../../../images/social/light/twitter-logo-transparent-light.png"
+        href="#"
+      ></mj-social-element>
+      <mj-social-element
+        alt="facebook-logo"
+        icon-size="24px"
+        src="../../../images/social/light/facebook-logo-transparent-light.png"
+        href="#"
+      ></mj-social-element>
+      <mj-social-element
+        alt="instagram-logo"
+        icon-size="24px"
+        src="../../../images/social/light/instagram-logo-transparent-light.png"
+        href="#"
+      ></mj-social-element>
+      <mj-social-element
+        alt="dribbble-logo"
+        icon-size="24px"
+        src="../../../images/social/light/linkedin-logo-transparent-light.png"
+        href="#"
+      ></mj-social-element>
+    </mj-social>
+    <mj-spacer height="20px"></mj-spacer>
+    <mj-text mj-class="footer-text" align="center">
+      Update your
+      <a class="footer-link" href="https://google.com">email preferences</a> to choose the types of
+      emails you receive, or you can
+      <a href="https://google.com" class="footer-link"> unsubscribe </a>from all future emails.
+    </mj-text>
+  </mj-column>
+</mj-section>
+    <!-- CUSTOMIZE: FOOTER END -->
+  </mj-body>
+</mjml>

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="x-apple-disable-message-reformatting">
+  <title>{{SUBJECT}}</title>
+</head>
+<body style="margin:0;padding:0;background:#ffffff;">
+<table role="presentation" width="100%" style="width:100%;background:#ffffff;"><tr><td align="center" class="mx-body-pad" style="background:#ffffff;padding:0;">
+<table role="presentation" class="shell mx-shell mx-shell-600" width="600" style="width:100%;max-width:640px;margin:0 auto;background:#ffffff;border:1px solid #dadce0;">
+
+<tr><td align="center">
+  <img data-slot="IMAGE_HERO" src="{{IMAGE_HERO}}" alt="{{COMPANY_NAME}}" width="600" style="display:block;width:100%;height:auto;max-width:100%;">
+</td></tr>
+
+<tr><td class="pad mx-content" style="padding:24px 24px 16px;">
+<table role="presentation" width="100%" style="color:#000000;font-size:16px;line-height:1.4;font-family:Arial,Helvetica,sans-serif;">
+<tr><td data-slot="GREETING" class="mx-copy" style="font-size:16px;font-weight:700;padding:0 0 16px;line-height:1.4;color:#000000;">{{GREETING}}</td></tr>
+<tr><td data-slot="INTRO" class="mx-copy" style="font-size:16px;padding:0 0 16px;line-height:1.4;color:#202124;">{{INTRO}}</td></tr>
+<tr><td data-slot="PARAGRAPH_2" class="mx-copy" style="font-size:16px;padding:0 0 16px;line-height:1.4;color:#202124;">{{PARAGRAPH_2}}</td></tr>
+<tr><td data-slot="PARAGRAPH_3" class="mx-copy" style="font-size:16px;padding:0 0 16px;line-height:1.4;color:#202124;">{{PARAGRAPH_3}}</td></tr>
+<tr><td data-slot="PARAGRAPH_4" class="mx-copy" style="font-size:16px;padding:0 0 16px;line-height:1.4;color:#202124;">{{PARAGRAPH_4}}</td></tr>
+<tr><td class="mx-signature" style="font-size:16px;padding:0 0 16px;line-height:1.4;color:#202124;">Best regards,</td></tr>
+<tr><td class="mx-signature" style="font-size:16px;line-height:1.4;color:#202124;">
+  <strong data-slot="SENDER_NAME" style="color:#000000;">{{SENDER_NAME}}</strong><br>
+  <span data-slot="SENDER_TITLE">{{SENDER_TITLE}}</span><br>
+  <span data-slot="COMPANY_NAME">{{COMPANY_NAME}}</span><br>
+  <a href="mailto:{{SENDER_EMAIL}}" style="color:#20a4b8;text-decoration:none;"><span data-slot="SENDER_EMAIL">{{SENDER_EMAIL}}</span></a><br>
+  <span data-slot="FOOTER_PHONE">{{FOOTER_PHONE}}</span>
+</td></tr>
+</table>
+</td></tr>
+
+<tr><td style="background:#f8f9fa;padding:25px 24px;border-top:1px solid #dadce0;">
+<table role="presentation" width="100%">
+<tr><td data-slot="COMPANY_NAME" class="mx-title" style="font-family:Georgia,'Times New Roman',serif;font-size:18.7px;letter-spacing:-0.02em;color:#000000;text-align:center;padding:0 0 16px;line-height:1.4;">{{COMPANY_NAME}}</td></tr>
+<tr><td class="mx-copy" style="font-size:14.7px;color:#202124;text-align:center;padding:0 0 16px;line-height:22.4px;">
+  <span data-slot="FOOTER_ADDRESS">{{FOOTER_ADDRESS}}</span><br>
+  📞 <a href="tel:{{FOOTER_PHONE}}" style="color:#202124;text-decoration:none;"><span data-slot="FOOTER_PHONE">{{FOOTER_PHONE}}</span></a><br>
+  <a href="mailto:{{FOOTER_EMAIL}}" style="color:#202124;text-decoration:none;word-break:break-all;"><span data-slot="FOOTER_EMAIL">{{FOOTER_EMAIL}}</span></a>
+</td></tr>
+<tr><td class="mx-footer" style="font-size:14.7px;color:#5f6368;text-align:center;line-height:22.4px;">
+  © 2026 <span data-slot="COMPANY_NAME">{{COMPANY_NAME}}</span>. All rights reserved.
+</td></tr>
+</table>
+</td></tr>
+
+</table>
+</td></tr></table>
+</body>
+</html>

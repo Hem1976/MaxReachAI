@@ -1,0 +1,108 @@
+<mjml lang="en">
+  <mj-head>
+    <mj-title>Welcome to [Coded Mails]</mj-title>
+    <mj-preview>Preview - Welcome to Coded Mails</mj-preview>
+    <mj-font name="Muli" href="https://fonts.googleapis.com/css?family=Muli:300,400,700"></mj-font>
+
+    <mj-attributes>
+      <mj-all font-family="Muli, Arial, sans-serif" color="#333"></mj-all>
+      <mj-button
+        line-height="30px"
+        background-color="#e6b07e"
+        color="white"
+        inner-padding="8px 16px"
+      ></mj-button>
+      <mj-text font-weight="400" font-size="16px" line-height="20px"></mj-text>
+      <mj-class name="heading" font-size="20px" line-height="30px" />
+      <mj-class name="footer-text" font-size="14px" line-height="20px" />
+      <mj-class name="sub-heading" font-weight="400" font-size="20px" line-height="28px" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      h1,
+      h2 {
+        margin: 0;
+        font-size: 24px;
+        line-height: normal;
+        font-weight: bold;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      a {
+        color: #2e58ff;
+        text-decoration: none;
+      }
+    </mj-style>
+    <mj-style>
+      a,
+      span,
+      td,
+      th {
+        -webkit-font-smoothing: antialiased !important;
+        -moz-osx-font-smoothing: grayscale !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f9f0e6">
+    <mj-section>
+      <mj-column>
+        <mj-spacer></mj-spacer>
+
+        <mj-image align="center" width="75px" src="../../../images/logo-circle-gray.png"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-hero
+      height="300px"
+      background-url="https://images.unsplash.com/photo-1536560035542-1326fab3a507?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
+      background-color="#2a3448"
+    ></mj-hero>
+
+    <mj-section background-color="#fff">
+      <mj-column>
+        <mj-text mj-class="heading">
+          <h1>Change Your Password</h1>
+        </mj-text>
+
+        <mj-divider border-width="1px" border-color="#F4F5FB" />
+
+        <mj-text>
+          <p>We got your request to change your password!</p>
+        </mj-text>
+
+        <mj-text>
+          <p>
+            Just so you know: You have 24 hours to pick your password. After that, you'll have to
+            ask for a new one.
+          </p>
+        </mj-text>
+
+        <mj-button align="left" href="[LINK]" border="2px solid #e6b07e">
+          Reset my pasword
+        </mj-button>
+        <mj-text mj-class="footer-text">
+          <p>Didn't ask for a new password? You can ignore this email.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+  <mj-column>
+    <mj-text mj-class="footer-text" align="center">
+      © 2020 [Coded Mails], Inc. 123 Louise St. #1234, San Francisco, CA 12221
+    </mj-text>
+    <mj-text mj-class="footer-text" align="center">
+      Update your <a href="https://google.com">email preferences</a> to choose the types of emails
+      you receive, or you can <a href="https://google.com"> unsubscribe </a>from all future emails.
+    </mj-text>
+  </mj-column>
+</mj-section>
+    <mj-section>
+  <mj-column>
+    <mj-spacer height="1px"></mj-spacer>
+  </mj-column>
+</mj-section>
+  </mj-body>
+</mjml>

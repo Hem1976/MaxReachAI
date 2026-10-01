@@ -1,0 +1,43 @@
+<!-- MAXREACH AI — PROBLEM → SOLUTION EMAIL
+Editable tokens use {{TOKEN}} syntax.
+Keep CSS inline for email-client compatibility.
+AI should populate content only; the template controls layout/design.
+-->
+
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{EMAIL_SUBJECT}}</title></head>
+<body style="margin:0;background:#e5e1d8;font-family:Arial,Helvetica,sans-serif;color:#151916;">
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#e5e1d8;"><tr><td align="center" style="padding:32px 12px;">
+<table role="presentation" width="640" cellspacing="0" cellpadding="0" border="0" style="width:100%;max-width:640px;">
+<tr><td style="padding:0 5px 12px;font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:#5f665f;">{{COMPANY_NAME}} <span style="float:right;">{{CATEGORY}}</span></td></tr>
+<tr><td style="height:2px;background:#1c2621;"></td></tr>
+<tr><td style="background:#f7f5ef;border:1px solid #cbc7bc;">
+<div style="padding:42px 43px 30px;">
+<div style="display:inline-block;background:#1e2b25;color:#e9dfc7;padding:7px 10px;font-size:9px;letter-spacing:2px;text-transform:uppercase;">{{EYEBROW}}</div>
+<h1 style="margin:20px 0 14px;font-family:Georgia,'Times New Roman',serif;font-size:43px;line-height:1.02;letter-spacing:-1.6px;font-weight:normal;">{{HEADLINE}}</h1>
+<p style="margin:0;color:#596059;font-size:15px;line-height:1.75;">{{INTRO}}</p>
+</div>
+<div style="padding:0 27px;"><img src="{{HERO_IMAGE_URL}}" alt="{{HERO_IMAGE_ALT}}" width="586" style="display:block;width:100%;height:auto;border:0;"></div>
+<div style="padding:32px 43px 43px;">
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0"><tr><td style="padding:18px 0;border-top:1px solid #bdb9af;border-bottom:1px solid #bdb9af;">
+<div style="font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#9a5c52;margin-bottom:8px;">01 / WHAT'S GETTING IN THE WAY</div>
+<h2 style="margin:0 0 8px;font-family:Georgia,'Times New Roman',serif;font-size:24px;font-weight:normal;">{{PROBLEM_TITLE}}</h2>
+<p style="margin:0;color:#535952;font-size:14px;line-height:1.7;">{{PROBLEM_TEXT}}</p>
+</td></tr></table>
+<div style="padding:25px 0 0;">
+<div style="font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#197b68;margin-bottom:8px;">02 / A BETTER WAY</div>
+<h2 style="margin:0 0 8px;font-family:Georgia,'Times New Roman',serif;font-size:24px;font-weight:normal;">{{SOLUTION_TITLE}}</h2>
+<p style="margin:0;color:#535952;font-size:14px;line-height:1.7;">{{SOLUTION_TEXT}}</p>
+</div>
+<div style="margin-top:25px;background:#e8eee9;padding:20px 21px;border-radius:8px;">
+<div style="font-size:9px;letter-spacing:1.8px;text-transform:uppercase;color:#527267;">THE PRODUCT</div>
+<strong style="display:block;margin-top:7px;font-family:Georgia,'Times New Roman',serif;font-size:21px;">{{PRODUCT_NAME}}</strong>
+<p style="margin:7px 0 0;color:#59645d;font-size:13px;line-height:1.6;">{{PRODUCT_DESCRIPTION}}</p>
+</div>
+<p style="margin:26px 0 0;"><a href="{{CTA_URL}}" style="display:inline-block;background:#1e2b25;color:#fff;text-decoration:none;padding:14px 22px;border-radius:5px;font-size:13px;font-weight:bold;">{{CTA_TEXT}} &nbsp;→</a></p>
+<p style="margin:30px 0 0;color:#6b716a;font-size:12px;line-height:1.6;">{{SIGN_OFF}}<br><strong style="color:#20251f;">{{SENDER_NAME}}</strong> · {{SENDER_TITLE}}</p>
+</div></td></tr>
+<tr><td style="padding:14px 4px;font-size:10px;color:#666b64;line-height:1.5;">{{FOOTER_TEXT}}</td></tr>
+</table></td></tr></table>
+</body></html>

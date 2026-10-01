@@ -1,0 +1,312 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/*
+  Maxpro / MaxReach design tokens.
+  Palette: white surfaces, Maxpro grey, teal blue accent (#20A4B8).
+*/
+:root {
+  --background: #ffffff;
+  --surface: #ffffff;
+  --surface-raised: #f7f8f9;
+  --surface-hover: #eef1f3;
+
+  --foreground: #2e3438;
+  --muted: #f3f4f5;
+  --muted-foreground: #6e7378;
+  --subtle-foreground: #9da1a5;
+
+  --border: #e4e6e8;
+  --border-strong: #cdd1d4;
+
+  --accent: #20a4b8;
+  --accent-hover: #1b8fa1;
+  --accent-foreground: #ffffff;
+  --accent-soft: rgba(32, 164, 184, 0.12);
+  --accent-ring: rgba(32, 164, 184, 0.38);
+
+  --success: #1f8a5c;
+  --warning: #946400;
+  --danger: #c03939;
+
+  --radius: 0.625rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+  --color-surface-hover: var(--surface-hover);
+
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-subtle-foreground: var(--subtle-foreground);
+
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent-soft: var(--accent-soft);
+
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--foreground);
+}
+
+.display {
+  letter-spacing: -0.028em;
+  font-weight: 500;
+}
+
+.eyebrow {
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--subtle-foreground);
+}
+
+.grid-texture {
+  background-image:
+    linear-gradient(to right, var(--border) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--border) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at center, black 10%, transparent 72%);
+}
+
+@keyframes maxreach-shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(32, 164, 184, 0.06),
+    transparent
+  );
+  animation: maxreach-shimmer 1.6s infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shimmer::after {
+    animation: none;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-strong) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--border-strong);
+  border-radius: 999px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: var(--subtle-foreground);
+}
+
+/* GrapesJS newsletter editor — full-width campaign canvas */
+.maxreach-grapes-editor {
+  position: relative;
+  isolation: isolate;
+  width: 100%;
+  height: calc(100dvh - 12.5rem);
+  min-height: 720px;
+  pointer-events: auto;
+}
+
+.maxreach-grapes-editor--loading {
+  height: calc(100dvh - 12.5rem);
+  min-height: 720px;
+}
+
+.maxreach-grapes-editor .gjs-editor-cont {
+  height: 100% !important;
+  min-height: 640px !important;
+}
+
+.maxreach-grapes-editor .gjs-editor {
+  height: 100% !important;
+  min-height: 640px !important;
+}
+
+.maxreach-grapes-editor .gjs-cv-canvas {
+  background: #ffffff;
+  min-height: 560px !important;
+  z-index: 1;
+}
+
+.maxreach-grapes-editor .gjs-pn-views-container {
+  box-shadow: none;
+  z-index: 4;
+  pointer-events: auto;
+}
+
+.maxreach-grapes-editor .gjs-pn-views,
+.maxreach-grapes-editor .gjs-pn-panel {
+  z-index: 4;
+}
+
+.maxreach-grapes-editor .gjs-sm-sector .gjs-sm-property,
+.maxreach-grapes-editor .gjs-sm-sector .gjs-sm-btn,
+.maxreach-grapes-editor .gjs-rte-actionbar,
+.maxreach-grapes-editor .gjs-rte-action {
+  pointer-events: auto;
+}
+
+.maxreach-grapes-editor .gjs-rte-actionbar {
+  z-index: 10;
+}
+
+.maxreach-grapes-editor .gjs-cv-canvas__frames,
+.maxreach-grapes-editor .gjs-frame-wrapper,
+.maxreach-grapes-editor .gjs-frame-wrapper iframe {
+  height: 100% !important;
+  min-height: 560px !important;
+}
+
+/* Device preview frames match sent-email breakpoints */
+.maxreach-grapes-editor .gjs-frame-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  transition: width 0.2s ease;
+}
+
+.maxreach-grapes-editor iframe body {
+  overflow-x: hidden !important;
+}
+
+.maxreach-grapes-editor .gjs-pn-panel,
+.maxreach-grapes-editor .gjs-pn-commands,
+.maxreach-grapes-editor .gjs-pn-views,
+.maxreach-grapes-editor .gjs-blocks-c,
+.maxreach-grapes-editor .gjs-block,
+.maxreach-grapes-editor .gjs-toolbar-item,
+.maxreach-grapes-editor .gjs-cv-canvas {
+  pointer-events: auto;
+}
+
+.maxreach-grapes-editor .gjs-one-bg {
+  background-color: #ffffff;
+}
+
+.maxreach-grapes-editor .gjs-two-color {
+  color: #000000;
+}
+
+.maxreach-grapes-editor .gjs-three-bg {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.maxreach-grapes-editor .gjs-four-color,
+.maxreach-grapes-editor .gjs-four-h-color:hover {
+  color: #20a4b8;
+}
+
+.maxreach-grapes-editor .gjs-blocks-c {
+  padding-bottom: 1rem;
+}
+
+.maxreach-grapes-editor .gjs-block {
+  min-height: auto;
+  padding: 0.5rem;
+}
+
+.maxreach-grapes-editor .gjs-pn-commands {
+  min-height: 2.5rem;
+}
+
+.maxreach-grapes-editor iframe #mx-free-layer,
+.maxreach-grapes-editor iframe [data-mx-free-layer="1"] {
+  pointer-events: none !important;
+}
+
+.maxreach-grapes-editor iframe [data-mx-free="1"] {
+  pointer-events: auto !important;
+  cursor: move;
+}
+
+.maxreach-grapes-editor iframe [data-mx-free="1"][contenteditable="true"] {
+  cursor: text !important;
+  outline: 2px solid rgba(32, 164, 184, 0.45);
+}
+
+.maxreach-grapes-editor .mx-gjs-toolbar-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2rem;
+}
+
+/* Gmail-like compose surface inside the canvas iframe */
+.maxreach-grapes-editor iframe body {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.maxreach-grapes-editor iframe [data-mx-free="1"][data-mx-block="text"],
+.maxreach-grapes-editor iframe .mx-free-text {
+  color: #000000 !important;
+  background: #ffffff !important;
+}

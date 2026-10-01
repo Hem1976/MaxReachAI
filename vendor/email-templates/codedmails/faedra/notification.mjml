@@ -1,0 +1,259 @@
+<mjml lang="en">
+  <mj-head>
+    <mj-title>Welcome to [Coded Mails]</mj-title>
+    <mj-preview>Preview - Welcome to Coded Mails</mj-preview>
+    <mj-font
+      name="Nunito"
+      href="https://fonts.googleapis.com/css?family=Nunito:100,400,700"
+    ></mj-font>
+    <mj-attributes>
+      <mj-all
+        font-family="Nunito, Helvetica, Arial, sans-serif"
+        font-size="16px"
+        color="#54595f"
+      ></mj-all>
+      <mj-button
+        border-radius="30px"
+        line-height="30px"
+        background-color="#54595f"
+        color="white"
+        align="center"
+      ></mj-button>
+      <mj-text font-weight="400" line-height="22px"></mj-text>
+      <mj-class name="heading" font-weight="400" font-size="18px" line-height="30px" />
+      <mj-class name="footer-text" color="#54595f" font-size="14px" line-height="18px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      h1,
+      h2 {
+        margin: 0;
+        font-size: 24px;
+        line-height: normal;
+        font-weight: bold;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+
+      a {
+        color: #54595f;
+        text-decoration: underline;
+      }
+
+      p {
+        margin: 0 0 5px 0;
+      }
+
+      a {
+        color: #54595f;
+        text-decoration: underline;
+      }
+
+      .date {
+        margin-bottom: 5px;
+        font-size: 16px;
+        font-weight: normal;
+      }
+    </mj-style>
+    <mj-style>
+      a,
+      span,
+      td,
+      th {
+        -webkit-font-smoothing: antialiased !important;
+        -moz-osx-font-smoothing: grayscale !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#eaeaea">
+    <mj-section>
+      <mj-column>
+        <mj-spacer></mj-spacer>
+      </mj-column>
+    </mj-section>
+
+    <mj-section
+      border-radius="20px 20px 0 0"
+      background-size="cover"
+      background-repeat="no-repeat"
+      background-url="https://images.unsplash.com/photo-1596146828437-d845f3b3235b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
+    >
+      <mj-column>
+        <mj-image
+          align="center"
+          padding="8px 0"
+          width="150px"
+          src="../../../images/logo-white.png"
+        ></mj-image>
+
+        <mj-spacer height="250px"></mj-spacer>
+      </mj-column>
+    </mj-section>
+    <mj-wrapper background-color="#ffffff" padding="0px">
+      <mj-section background-color="#ffffff">
+        <mj-column width="100%">
+          <mj-text mj-class="heading">
+            <h2>Hey Mike,</h2>
+          </mj-text>
+          <mj-text>
+            <p>You have a new support notification.</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper background-color="#ffffff" padding="0 20px">
+      <mj-section background-color="#4F8CFF" border-radius="20px">
+        <mj-column>
+          <mj-text color="#DBECFF" mj-class="heading" align="left">
+            <p class="date">INFO</p>
+
+            <h2>Item Dispatched</h2>
+          </mj-text>
+          <mj-text color="#DBECFF">
+            <p>Your item left our warehouse. You should receive it soon.</p>
+          </mj-text>
+
+          <mj-button
+            background-color="#DBECFF"
+            color="#4F8CFF"
+            align="right"
+            href="https://google.com"
+          >
+            <strong>more details</strong>
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column>
+          <mj-spacer />
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#F75336" border-radius="20px">
+        <mj-column>
+          <mj-text color="#FEE9D6" mj-class="heading" align="left">
+            <p class="date">ALERT</p>
+
+            <h2>Delivery Cancelled</h2>
+          </mj-text>
+          <mj-text color="#FEE9D6">
+            <p>
+              Your order could not be completed and has been cancelled. Your account has not been
+              charged and we apologize for the inconvenience.
+            </p>
+          </mj-text>
+
+          <mj-button
+            background-color="#FEE9D6"
+            color="#F75336"
+            align="right"
+            href="https://google.com"
+          >
+            <strong>more details</strong>
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-spacer />
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#22C965" border-radius="20px">
+        <mj-column>
+          <mj-text color="#D2FCD2" mj-class="heading" align="left">
+            <p class="date">SUCCESS</p>
+
+            <h2>Delivery Complete</h2>
+          </mj-text>
+          <mj-text color="#D2FCD2">
+            <p>
+              Your order has been delivered. If you have any question feel free to get in touch with
+              us. We will be happy to assist you.
+            </p>
+          </mj-text>
+
+          <mj-button
+            background-color="#D2FCD2"
+            color="#22C965"
+            align="right"
+            href="https://google.com"
+          >
+            <strong>more details</strong>
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-spacer />
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#EDB500" border-radius="20px">
+        <mj-column>
+          <mj-text color="#FEF7CB" mj-class="heading" align="left">
+            <p class="date">WARNING</p>
+
+            <h2>Item Missing</h2>
+          </mj-text>
+          <mj-text color="#FEF7CB">
+            <p>Your item might be out of stock. We will send it as soon as possible.</p>
+          </mj-text>
+
+          <mj-button
+            background-color="#FEF7CB"
+            color="#EDB500"
+            align="right"
+            href="https://google.com"
+          >
+            <strong>more details</strong>
+          </mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper background-color="#ffffff" border-radius="0 0 20px 20px">
+      <mj-section background-color="#ffffff" padding="0">
+        <mj-column width="100%">
+          <mj-text
+            >If you have any questions simply reply to this email and we would be more than happy to
+            reply. :)</mj-text
+          >
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section padding-bottom="0px">
+  <mj-column>
+    <mj-text align="center">
+      <a href="#" style="display: inline-block; text-decoration: none">
+        <img src="../../../images/google-play.png" alt="play-store-logo" width="150px" />
+      </a>
+      <a href="#" style="display: inline-block; text-decoration: none">
+        <img src="../../../images/app-store.png" alt="app-store-logo" width="150px" />
+      </a>
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+<mj-section padding-top="0px">
+  <mj-column>
+    <mj-text align="center" mj-class="footer-text">
+      123 Medalling Jr., Suite 100, Parrot Park, CA 12345<br />
+      © 2020 [Coded Mails] Inc.</mj-text
+    >
+    <mj-text mj-class="footer-text" align="center">
+      Update your <a href="https://google.com">email preferences</a> to choose the types of emails
+      you receive, or you can <a href="https://google.com"> unsubscribe </a>from all future emails.
+    </mj-text>
+  </mj-column>
+</mj-section>
+    <mj-section>
+  <mj-column>
+    <mj-spacer height="1px"></mj-spacer>
+  </mj-column>
+</mj-section>
+  </mj-body>
+</mjml>

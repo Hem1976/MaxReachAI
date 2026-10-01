@@ -1,0 +1,254 @@
+<mjml lang="en">
+  <mj-head>
+    <mj-title>Welcome to Coded Mails</mj-title>
+    <mj-preview>Preview - Welcome to Coded Mails</mj-preview>
+    <mj-attributes>
+      <mj-button
+        border-radius="30px"
+        text-transform="uppercase"
+        font-weight="bold"
+        font-size="14px"
+        line-height="30px"
+        background-color="#2e58ff"
+        color="#ffffff"
+      ></mj-button>
+      <mj-all
+        font-size="14px"
+        line-height="20px"
+        font-family="Helvetica, Arial, sans-serif"
+      ></mj-all>
+      <mj-text font-weight="400" font-size="18px" color="#434245" line-height="24px"></mj-text>
+      <mj-class font-weight="bold" name="heading" />
+      <mj-class color="#999" name="footer-text" font-size="14px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      h1,
+      h2 {
+        margin: 0;
+        font-size: 24px;
+        line-height: normal;
+        font-weight: bold;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      a {
+        color: #2e58ff;
+        text-decoration: none;
+      }
+
+      h2 {
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 24px;
+      }
+
+      h3 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+      }
+
+      .date {
+        margin-bottom: 5px;
+        font-size: 16px;
+      }
+    </mj-style>
+    <mj-style>
+      a,
+      span,
+      td,
+      th {
+        -webkit-font-smoothing: antialiased !important;
+        -moz-osx-font-smoothing: grayscale !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#ffffff">
+    <mj-section padding-bottom="0px">
+      <mj-column>
+        <mj-image
+          src="../../../images/logo-circle.png"
+          alt="image description"
+          align="left"
+          width="50px"
+        />
+        <mj-text>
+          <h1>
+            You got a new <br />
+            Notification
+          </h1>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          <p>Hi, Jenny</p>
+        </mj-text>
+        <mj-text>
+          <p>We have some new notifications regarding your account.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#FFCDB0" border-radius="4px">
+      <mj-column>
+        <mj-text color="#7A0B1F" mj-class="heading" align="left">
+          <p class="date">ALERT</p>
+
+          <h2>Delivery Cancelled</h2>
+        </mj-text>
+        <mj-text color="#7A0B1F">
+          <p>
+            Your order could not be completed and has been cancelled. Your account has not been
+            charged and we apologize for the inconvenience.
+          </p>
+        </mj-text>
+
+        <mj-button
+          background-color="#7A0B1F"
+          color="#FFCDB0"
+          align="right"
+          href="https://google.com"
+        >
+          more details
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#FFF0B5" border-radius="4px">
+      <mj-column>
+        <mj-text color="#7A5200" mj-class="heading" align="left">
+          <p class="date">WARNING</p>
+
+          <h2>Item Missing</h2>
+        </mj-text>
+        <mj-text color="#7A5200">
+          <p>Your item might be out of stock. We will send it as soon as possible.</p>
+        </mj-text>
+
+        <mj-button
+          background-color="#7A400C"
+          color="#FFF0B5"
+          align="right"
+          href="https://google.com"
+        >
+          more details
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#D3FBD8" border-radius="4px">
+      <mj-column>
+        <mj-text color="#307007" mj-class="heading" align="left">
+          <p class="date">SUCCESS</p>
+
+          <h2>Delivery Complete</h2>
+        </mj-text>
+        <mj-text color="#307007">
+          <p>Your order has been delivered.</p>
+        </mj-text>
+
+        <mj-button
+          background-color="#307007"
+          color="#D3FBD8"
+          align="right"
+          href="https://google.com"
+        >
+          more details
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#BFFCFD" border-radius="4px">
+      <mj-column>
+        <mj-text color="#053878" mj-class="heading" align="left">
+          <p class="date">INFO</p>
+
+          <h2>Item Dispatched</h2>
+        </mj-text>
+        <mj-text color="#053878">
+          <p>Your item left our warehouse. You should receive it soon.</p>
+        </mj-text>
+
+        <mj-button
+          background-color="#053878"
+          color="#BFFCFD"
+          align="right"
+          href="https://google.com"
+        >
+          more details
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          If you need any help, don’t hesitate to reach out to us at
+          <a href="#">hello@codedmails.com</a>!
+        </mj-text>
+        <mj-text mj-class="heading"> Team Coded Mails </mj-text>
+        <mj-social mode="horizontal" align="left">
+          <mj-social-element
+            alt="twitter-logo"
+            icon-size="18px"
+            src="../../../images/social/black/twitter-logo-transparent-black.png"
+            href="#"
+          ></mj-social-element>
+          <mj-social-element
+            alt="facebook-logo"
+            icon-size="18px"
+            src="../../../images/social/black/facebook-logo-transparent-black.png"
+            href="#"
+          ></mj-social-element>
+          <mj-social-element
+            alt="instagram-logo"
+            icon-size="18px"
+            src="../../../images/social/black/instagram-logo-transparent-black.png"
+            href="#"
+          ></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="0">
+  <mj-column width="100%">
+    <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey" />
+    <mj-text align="left" mj-class="footer-text">
+      Have questions or need help? Email us at
+
+      <a href="#"> info@codedmails.com </a>
+    </mj-text>
+
+    <mj-text mj-class="light-text">
+      123 Medalling Jr., Suite 100, Parrot Park, CA 12345<br />
+      © 2020 [Coded Mails] Inc.
+    </mj-text>
+    <mj-text mj-class="footer-text">
+      Update your <a href="https://google.com">email preferences</a> to choose the types of emails
+      you receive, or you can <a href="https://google.com"> unsubscribe </a>from all future emails.
+    </mj-text>
+  </mj-column>
+</mj-section>
+    <mj-section>
+  <mj-column>
+    <mj-spacer height="1px"></mj-spacer>
+  </mj-column>
+</mj-section>
+  </mj-body>
+</mjml>

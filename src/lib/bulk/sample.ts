@@ -1,0 +1,6 @@
+/** Sample rows for the simplified import: name, contact person, email. */
+export const SAMPLE_CSV = `name,contact_person,email
+Northline Distribution,Anita Rao,anita.rao@northline.example
+Helios Pharma,Farid Khan,farid.khan@helios-pharma.example
+Greenacre Agro Inputs,Priya Menon,priya.menon@greenacre.example
+`;

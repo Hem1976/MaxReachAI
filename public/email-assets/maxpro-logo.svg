@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="40" viewBox="0 0 220 40" role="img" aria-label="Maxpro Infotech">
+  <rect x="0" y="6" width="28" height="28" rx="6" fill="#0f3d4c"/>
+  <path d="M7 28V12h4.2l4.3 10.2L19.8 12H24v16h-3.6v-10l-3.8 9.2h-2.2L10.6 18V28H7z" fill="#6fe1d1"/>
+  <text x="38" y="19" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#0f3d4c" letter-spacing="2.2">MAXPRO</text>
+  <text x="38" y="32" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#5a6b75" letter-spacing="3.2">INFOTECH</text>
+</svg>

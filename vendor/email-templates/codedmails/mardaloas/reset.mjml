@@ -1,0 +1,151 @@
+<mjml lang="en">
+  <mj-head>
+    <mj-title>Welcome to [Coded Mails]</mj-title>
+    <mj-preview>Preview - Welcome to Coded Mails</mj-preview>
+    <mj-font
+      name="Inknut Antiqua"
+      href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;500;600&display=swap"
+    />
+    <mj-font
+      name="Montserrat"
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+    />
+    <mj-attributes>
+      <mj-button
+        font-size="14px"
+        line-height="30px"
+        background-color="#fff"
+        color="#000"
+      ></mj-button>
+      <mj-all
+        font-size="14px"
+        line-height="20px"
+        font-family="Montserrat, Helvetica, Arial, sans-serif"
+      ></mj-all>
+      <mj-text font-weight="400" font-size="18px" color="#ddd" line-height="24px"></mj-text>
+      <mj-class font-weight="bold" name="heading" />
+      <mj-class color="#999" name="footer-text" font-size="16px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      h1,
+      h2 {
+        margin: 0;
+        font-size: 46px;
+        line-height: 60px;
+        font-weight: 600;
+        font-family: "Inknut Antiqua", Helvetica, Arial, sans-serif;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .footer-link {
+        color: #fff;
+        font-weight: 400;
+      }
+    </mj-style>
+    <mj-style>
+      a,
+      span,
+      td,
+      th {
+        -webkit-font-smoothing: antialiased !important;
+        -moz-osx-font-smoothing: grayscale !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#171919">
+    <mj-section padding-bottom="0px">
+      <mj-column vertical-align="middle">
+        <mj-image src="../../../images/logo-white.png" alt="Logo" align="center" width="150px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <!-- CUSTOMIZE: MAIN IMAGE START -->
+        <mj-image
+          src="https://ouch-cdn.icons8.com/preview/681/3857a0f9-5927-4f02-8dc2-892260c4fadf.png"
+          alt="image alt text"
+        />
+        <!-- CUSTOMIZE: MAIN IMAGE END -->
+        <!-- CUSTOMIZE: ILLUSTRATION CAPTION START-->
+        <mj-text align="right" font-size="12px">
+          <p>
+            Illustration by
+            <a target="_blank" href=" https://icons8.com/illustrations/style--pixeltrue">Icons8</a>
+          </p>
+        </mj-text>
+        <!-- CUSTOMIZE: ILLUSTRATION CAPTION END -->
+        <mj-text>
+          <h1>Reset Password</h1>
+        </mj-text>
+
+        <mj-text>
+          <p>Need to reset your password? No problem. Just click below to get started.</p>
+        </mj-text>
+
+        <mj-button align="left" href="https://google.com"> Reset my password </mj-button>
+
+        <mj-text align="left" mj-class="footer-text">
+          <p>If you didn't request to change your password, you don't have to do anything.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- CUSTOMIZE: FOOTER START -->
+    <mj-section full-width="full-width" background-color="#000">
+  <mj-column>
+    <mj-text align="center" mj-class="footer-text">
+      <a class="footer-link" href="#">Support</a> &nbsp; | &nbsp;
+      <a class="footer-link" href="#">Privacy Policy</a>
+    </mj-text>
+
+    <mj-text mj-class="footer-text" align="center">
+      123 Medalling Jr., Suite 100, Parrot Park, CA 12345
+    </mj-text>
+
+    <mj-social mode="horizontal" align="center">
+      <mj-social-element
+        alt="twitter-logo"
+        icon-size="24px"
+        src="../../../images/social/light/twitter-logo-transparent-light.png"
+        href="#"
+      ></mj-social-element>
+      <mj-social-element
+        alt="facebook-logo"
+        icon-size="24px"
+        src="../../../images/social/light/facebook-logo-transparent-light.png"
+        href="#"
+      ></mj-social-element>
+      <mj-social-element
+        alt="instagram-logo"
+        icon-size="24px"
+        src="../../../images/social/light/instagram-logo-transparent-light.png"
+        href="#"
+      ></mj-social-element>
+      <mj-social-element
+        alt="dribbble-logo"
+        icon-size="24px"
+        src="../../../images/social/light/linkedin-logo-transparent-light.png"
+        href="#"
+      ></mj-social-element>
+    </mj-social>
+    <mj-spacer height="20px"></mj-spacer>
+    <mj-text mj-class="footer-text" align="center">
+      Update your
+      <a class="footer-link" href="https://google.com">email preferences</a> to choose the types of
+      emails you receive, or you can
+      <a href="https://google.com" class="footer-link"> unsubscribe </a>from all future emails.
+    </mj-text>
+  </mj-column>
+</mj-section>
+    <!-- CUSTOMIZE: FOOTER END -->
+  </mj-body>
+</mjml>

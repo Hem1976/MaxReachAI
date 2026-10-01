@@ -1,0 +1,188 @@
+<mjml lang="en">
+  <mj-head>
+    <mj-title>Welcome to [Coded Mails]</mj-title>
+    <mj-preview>Preview - Welcome to Coded Mails</mj-preview>
+    <mj-font name="Muli" href="https://fonts.googleapis.com/css?family=Muli:300,400,700"></mj-font>
+
+    <mj-attributes>
+      <mj-all font-family="Muli, Arial, sans-serif" color="#333333"></mj-all>
+      <mj-button
+        line-height="30px"
+        font-weight="700"
+        background-color="#e6b07e"
+        color="white"
+      ></mj-button>
+      <mj-text font-weight="400" font-size="16px" line-height="20px"></mj-text>
+      <mj-class name="heading" font-size="20px" line-height="30px" />
+      <mj-class name="footer-text" color="#616161" font-size="14px" line-height="20px" />
+      <mj-class name="sub-heading" font-weight="400" font-size="20px" line-height="28px" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      h1,
+      h2 {
+        margin: 0;
+        font-size: 24px;
+        line-height: normal;
+        font-weight: bold;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      .receipt-table td {
+        color: #525f7f;
+        font-size: 15px;
+        line-height: 24px;
+        word-break: normal;
+      }
+
+      .receipt-table th {
+        padding-bottom: 10px;
+        color: #7e7e7e;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      a {
+        color: #ac7b4c;
+        text-decoration: none;
+      }
+    </mj-style>
+    <mj-style>
+      a,
+      span,
+      td,
+      th {
+        -webkit-font-smoothing: antialiased !important;
+        -moz-osx-font-smoothing: grayscale !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f9f0e6">
+    <mj-section>
+      <mj-column>
+        <mj-spacer></mj-spacer>
+
+        <mj-image align="center" width="75px" src="../../../images/logo-circle-gray.png"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-hero
+      height="300px"
+      background-url="https://images.unsplash.com/photo-1573376670774-4427757f7963?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
+      background-color="#2a3448"
+    ></mj-hero>
+
+    <mj-wrapper background-color="#fff">
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-text mj-class="heading">
+            <h1>Here's your receipt</h1>
+          </mj-text>
+
+          <mj-divider border-width="1px" border-color="#F4F5FB" />
+
+          <mj-text>
+            <p>Thank you for your order. Please find the order details below:</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-bottom="0px" padding-top="0px">
+  <mj-column inner-background-color="#f6f6f6" padding="10px 25px">
+    <mj-table css-class="receipt-table" padding="20px">
+      <tr>
+        <th colspan="2" align="left">Date: 03.13.2020</th>
+        <th align="right">Receipt #: 234234234</th>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>
+            Product 1
+            <span style="color: #a7a7a7; font-size: 14px; line-height: 14px"> × 1 </span>
+          </p>
+        </td>
+        <td align="right" valign="top">$12.00</td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>
+            Product 2
+            <span style="color: #a7a7a7; font-size: 14px; line-height: 14px"> × 3 </span>
+          </p>
+        </td>
+        <td align="right" valign="top">$14.00</td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>
+            Product 3
+            <span style="color: #a7a7a7; font-size: 14px; line-height: 14px"> × 1 </span>
+          </p>
+        </td>
+        <td align="right" valign="top">$18.00</td>
+      </tr>
+      <tr>
+        <td
+          style="
+            border-bottom-width: 1px;
+            border-bottom-color: #eaeeeb;
+            border-bottom-style: solid;
+            padding: 5px 0;
+          "
+          colspan="3"
+        ></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="font-weight: bold; padding: 20px 0 0">Amount paid</td>
+        <td align="right" style="font-weight: bold; padding: 20px 0 0">$44.00</td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-button align="right" href="[LINK]"> Click here track your order </mj-button>
+          <mj-text>
+            <p>
+              If you have any questions or need further information about returns, you can
+              <a href="#">view our return policy.</a>
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="0px" padding-bottom="0px">
+        <mj-column>
+          <mj-text align="center">
+            <a href="#" style="display: inline-block; text-decoration: none">
+              <img src="../../../images/google-play.png" alt="play-store-logo" width="150px" />
+            </a>
+            <a href="#" style="display: inline-block; text-decoration: none">
+              <img src="../../../images/app-store.png" alt="app-store-logo" width="150px" />
+            </a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section>
+  <mj-column>
+    <mj-text mj-class="footer-text" align="center">
+      © 2020 [Coded Mails], Inc. 123 Louise St. #1234, San Francisco, CA 12221
+    </mj-text>
+    <mj-text mj-class="footer-text" align="center">
+      Update your <a href="https://google.com">email preferences</a> to choose the types of emails
+      you receive, or you can <a href="https://google.com"> unsubscribe </a>from all future emails.
+    </mj-text>
+  </mj-column>
+</mj-section>
+    <mj-section>
+  <mj-column>
+    <mj-spacer height="1px"></mj-spacer>
+  </mj-column>
+</mj-section>
+  </mj-body>
+</mjml>

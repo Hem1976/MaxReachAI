@@ -1,0 +1,46 @@
+<!-- MAXREACH AI — PROBLEM → SOLUTION EMAIL
+Editable tokens use {{TOKEN}} syntax.
+Keep CSS inline for email-client compatibility.
+AI should populate content only; the template controls layout/design.
+-->
+
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{EMAIL_SUBJECT}}</title></head>
+<body style="margin:0;padding:0;background:#070a10;font-family:Arial,Helvetica,sans-serif;color:#fff;">
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#070a10;"><tr><td align="center" style="padding:34px 12px;">
+<table role="presentation" width="640" cellspacing="0" cellpadding="0" border="0" style="width:100%;max-width:640px;">
+<tr><td style="padding:0 7px 16px;font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:#7f8da0;">{{COMPANY_NAME}} <span style="float:right;">{{CATEGORY}}</span></td></tr>
+<tr><td style="border-radius:26px;overflow:hidden;background:#101725;border:1px solid #29384d;">
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr><td style="padding:44px 44px 40px;background:linear-gradient(135deg,#111b2b 0%,#0d1320 52%,#182442 100%);">
+<div style="display:inline-block;padding:7px 11px;border:1px solid #3b4f69;border-radius:999px;color:#a9bdd6;font-size:9px;letter-spacing:2px;text-transform:uppercase;">{{EYEBROW}}</div>
+<h1 style="margin:21px 0 16px;font-size:40px;line-height:1.04;letter-spacing:-1.7px;">{{HEADLINE}}</h1>
+<p style="margin:0;color:#aab7c7;font-size:15px;line-height:1.7;">{{INTRO}}</p>
+</td></tr>
+<tr><td style="padding:0;background:#111722;">
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0"><tr>
+<td width="50%" valign="top" style="width:50%;padding:30px 24px 32px 40px;border-right:1px solid #2a3544;">
+<div style="font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#ff7d7d;margin-bottom:12px;">01 / THE PROBLEM</div>
+<h2 style="margin:0 0 12px;font-size:22px;line-height:1.2;">{{PROBLEM_TITLE}}</h2>
+<p style="margin:0;color:#929eae;font-size:14px;line-height:1.7;">{{PROBLEM_TEXT}}</p>
+</td>
+<td width="50%" valign="top" style="width:50%;padding:30px 40px 32px 24px;">
+<div style="font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#6fe1d1;margin-bottom:12px;">02 / THE SOLUTION</div>
+<h2 style="margin:0 0 12px;font-size:22px;line-height:1.2;">{{SOLUTION_TITLE}}</h2>
+<p style="margin:0;color:#b6c1ce;font-size:14px;line-height:1.7;">{{SOLUTION_TEXT}}</p>
+</td></tr></table>
+</td></tr>
+<tr><td style="padding:34px 40px 40px;background:#0d121b;">
+<div style="padding:18px 20px;border-radius:13px;background:#172234;border:1px solid #2b3d56;">
+<div style="font-size:9px;letter-spacing:1.8px;text-transform:uppercase;color:#7e94ad;margin-bottom:7px;">{{PRODUCT_LABEL}}</div>
+<strong style="font-size:18px;">{{PRODUCT_NAME}}</strong>
+<p style="margin:7px 0 0;color:#99a7b8;font-size:13px;line-height:1.6;">{{PRODUCT_DESCRIPTION}}</p>
+</div>
+<p style="margin:26px 0 0;"><a href="{{CTA_URL}}" style="display:inline-block;background:#6fe1d1;color:#061014;text-decoration:none;border-radius:9px;padding:14px 22px;font-size:13px;font-weight:bold;">{{CTA_TEXT}} &nbsp;→</a></p>
+<p style="margin:28px 0 0;color:#667487;font-size:12px;line-height:1.6;">{{SIGN_OFF}}<br><strong style="color:#c9d2dd;">{{SENDER_NAME}}</strong> · {{SENDER_TITLE}}</p>
+</td></tr></table>
+</td></tr>
+<tr><td style="padding:15px 6px;color:#566274;font-size:10px;line-height:1.5;">{{FOOTER_TEXT}}</td></tr>
+</table></td></tr></table>
+</body></html>

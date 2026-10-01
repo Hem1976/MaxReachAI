@@ -1,0 +1,41 @@
+<!-- MAXREACH AI — PROBLEM → SOLUTION EMAIL
+Editable tokens use {{TOKEN}} syntax.
+Keep CSS inline for email-client compatibility.
+AI should populate content only; the template controls layout/design.
+-->
+
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{EMAIL_SUBJECT}}</title></head>
+<body style="margin:0;background:#090a0c;font-family:Arial,Helvetica,sans-serif;color:#fff;">
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#090a0c;"><tr><td align="center" style="padding:32px 12px;">
+<table role="presentation" width="640" cellspacing="0" cellpadding="0" border="0" style="width:100%;max-width:640px;">
+<tr><td style="padding:0 7px 15px;color:#737b85;font-size:11px;letter-spacing:2.5px;text-transform:uppercase;">{{COMPANY_NAME}} <span style="float:right;color:#bca16b;">{{CATEGORY}}</span></td></tr>
+<tr><td style="border:1px solid #303237;border-radius:25px;overflow:hidden;background:#141518;">
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0"><tr>
+<td width="50%" style="width:50%;"><img src="{{IMAGE_1_URL}}" alt="{{IMAGE_1_ALT}}" width="320" style="display:block;width:100%;height:auto;border:0;"></td>
+<td width="50%" style="width:50%;"><img src="{{IMAGE_2_URL}}" alt="{{IMAGE_2_ALT}}" width="320" style="display:block;width:100%;height:auto;border:0;"></td>
+</tr></table>
+<div style="padding:43px 42px 44px;background:linear-gradient(145deg,#17191d,#0f1012);">
+<div style="font-size:9px;letter-spacing:2.2px;text-transform:uppercase;color:#bca16b;">{{EYEBROW}}</div>
+<h1 style="margin:18px 0 18px;font-size:38px;line-height:1.05;letter-spacing:-1.4px;">{{HEADLINE}}</h1>
+<p style="margin:0 0 18px;color:#aeb5be;font-size:15px;line-height:1.75;">{{INTRO}}</p>
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0"><tr><td style="padding:18px 0;border-top:1px solid #35373a;border-bottom:1px solid #35373a;">
+<div style="font-size:9px;letter-spacing:1.8px;text-transform:uppercase;color:#bca16b;margin-bottom:8px;">THE GAP</div>
+<div style="font-size:18px;line-height:1.45;color:#f1f2f3;">{{PROBLEM_TITLE}}</div>
+<p style="margin:8px 0 0;color:#828a95;font-size:13px;line-height:1.65;">{{PROBLEM_TEXT}}</p>
+</td></tr></table>
+<div style="padding:24px 0 0;">
+<div style="font-size:9px;letter-spacing:1.8px;text-transform:uppercase;color:#69d6c3;margin-bottom:8px;">THE SHIFT</div>
+<div style="font-size:18px;line-height:1.45;">{{SOLUTION_TITLE}}</div>
+<p style="margin:8px 0 0;color:#9ca6b1;font-size:13px;line-height:1.65;">{{SOLUTION_TEXT}}</p>
+</div>
+<div style="margin-top:25px;padding:17px 18px;background:#1d2024;border:1px solid #35383d;border-radius:12px;">
+<strong style="font-size:15px;">{{PRODUCT_NAME}}</strong><br><span style="font-size:12px;line-height:1.6;color:#818b97;">{{PRODUCT_DESCRIPTION}}</span>
+</div>
+<p style="margin:27px 0 0;"><a href="{{CTA_URL}}" style="display:inline-block;background:#bca16b;color:#111;text-decoration:none;padding:14px 22px;border-radius:8px;font-size:13px;font-weight:bold;">{{CTA_TEXT}} &nbsp;→</a></p>
+<p style="margin:30px 0 0;color:#68727f;font-size:12px;line-height:1.6;">{{SIGN_OFF}}<br><strong style="color:#d7dce2;">{{SENDER_NAME}}</strong> · {{SENDER_TITLE}}</p>
+</div></td></tr>
+<tr><td style="padding:15px 6px;color:#555e69;font-size:10px;line-height:1.5;">{{FOOTER_TEXT}}</td></tr>
+</table></td></tr></table>
+</body></html>

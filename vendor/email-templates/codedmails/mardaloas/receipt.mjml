@@ -1,0 +1,277 @@
+<mjml lang="en">
+  <mj-head>
+    <mj-title>Welcome to [Coded Mails]</mj-title>
+    <mj-preview>Preview - Welcome to Coded Mails</mj-preview>
+    <mj-font
+      name="Inknut Antiqua"
+      href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;500;600&display=swap"
+    />
+    <mj-font
+      name="Montserrat"
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+    />
+    <mj-attributes>
+      <mj-button
+        font-size="14px"
+        line-height="30px"
+        background-color="#fff"
+        color="#000"
+      ></mj-button>
+      <mj-all
+        font-size="14px"
+        line-height="20px"
+        font-family="Montserrat, Helvetica, Arial, sans-serif"
+      ></mj-all>
+      <mj-text font-weight="400" font-size="18px" color="#ddd" line-height="24px"></mj-text>
+      <mj-class font-weight="bold" name="heading" />
+      <mj-class color="#999" name="footer-text" font-size="16px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      h1,
+      h2 {
+        margin: 0;
+        font-size: 36px;
+        line-height: 45px;
+        font-weight: 600;
+        font-family: "Inknut Antiqua", Helvetica, Arial, sans-serif;
+      }
+
+      h3 {
+        margin: 0;
+        font-size: 22px;
+        line-height: 20px;
+        font-weight: 600;
+        font-family: "Inknut Antiqua", Helvetica, Arial, sans-serif;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .footer-link {
+        color: #fff;
+        font-weight: 400;
+      }
+    </mj-style>
+    <mj-style>
+      a,
+      span,
+      td,
+      th {
+        -webkit-font-smoothing: antialiased !important;
+        -moz-osx-font-smoothing: grayscale !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#171919">
+    <mj-section padding-bottom="0px">
+      <mj-column vertical-align="middle">
+        <mj-image src="../../../images/logo-white.png" alt="Logo" align="center" width="150px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-image
+          src="https://ouch-cdn.icons8.com/preview/813/7435738a-f116-4aa1-b997-bcc6a1a66336.png"
+          alt="receipt image"
+        />
+
+        <mj-text>
+          <h1>Thanks for your order</h1>
+        </mj-text>
+
+        <mj-text>
+          <p>Your order was successfully placed and your payment has been processed.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-wrapper background-color="#111" border-radius="5px">
+  <mj-section padding="0">
+    <mj-column>
+      <mj-text font-size="16px" line-height="22px" font-weight="bold">
+        <h3>Items Ordered</h3>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+
+  <mj-section padding="0">
+    <mj-group>
+      <mj-column>
+        <mj-text>
+          <p>Product Name</p>
+          <p><small>decription</small></p>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="right">
+          <p>$28.00</p>
+        </mj-text>
+      </mj-column>
+    </mj-group>
+  </mj-section>
+
+  <mj-section padding="0">
+    <mj-group>
+      <mj-column>
+        <mj-text>
+          <p>Product Name</p>
+          <p><small>decription</small></p>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="right">
+          <p>$28.00</p>
+        </mj-text>
+      </mj-column>
+    </mj-group>
+  </mj-section>
+  <mj-section padding="0">
+    <mj-group>
+      <mj-column>
+        <mj-text>
+          <p>Product Name</p>
+          <p><small>decription</small></p>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="right">
+          <p>$28.00</p>
+        </mj-text>
+      </mj-column>
+    </mj-group>
+  </mj-section>
+  <mj-section background-color="#222" padding="0">
+    <mj-group>
+      <mj-column>
+        <mj-text>
+          <p><small>Discount</small></p>
+          <p><small>Subtotal</small></p>
+          <p><small>Tax</small></p>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="right">
+          <p><small>$5.00</small></p>
+          <p><small>$233.00</small></p>
+          <p><small>$20.00</small></p>
+        </mj-text>
+      </mj-column>
+    </mj-group>
+  </mj-section>
+
+  <mj-section background-color="#000">
+    <mj-group>
+      <mj-column>
+        <mj-text font-size="18px" line-height="24px" font-weight="bold">
+          <p>Total</p>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text font-size="18px" font-weight="bold" line-height="24px" align="right">
+          <p>$253.00</p>
+        </mj-text>
+      </mj-column>
+    </mj-group>
+  </mj-section>
+
+  <mj-section>
+    <mj-group>
+      <mj-column>
+        <mj-text font-size="16px" line-height="22px" font-weight="bold">
+          <h3>Billing Info</h3>
+        </mj-text>
+        <mj-text font-size="14px" color="#999" line-height="20px">
+          <p>
+            John Doe<br />
+            123 New St <br />
+            Alexender Platz, Berlin<br />
+            22330<br />
+            Germany<br />
+          </p>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text font-size="16px" line-height="22px" font-weight="bold" align="right">
+          <h3>Shipping address</h3>
+        </mj-text>
+        <mj-text font-size="14px" color="#999" align="right" line-height="20px">
+          <p>
+            John Doe<br />
+            123 New St <br />
+            Alexender Platz, Berlin<br />
+            22330<br />
+            Germany<br />
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-group>
+  </mj-section>
+</mj-wrapper>
+
+    <mj-section>
+      <mj-column>
+        <mj-text align="left" mj-class="footer-text">
+          <p>
+            Have questions or need help? Email us at
+            <a href="mailto:">hello@codedmails.com</a>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- CUSTOMIZE: FOOTER START -->
+    <mj-section full-width="full-width" background-color="#000">
+  <mj-column>
+    <mj-text align="center" mj-class="footer-text">
+      <a class="footer-link" href="#">Support</a> &nbsp; | &nbsp;
+      <a class="footer-link" href="#">Privacy Policy</a>
+    </mj-text>
+
+    <mj-text mj-class="footer-text" align="center">
+      123 Medalling Jr., Suite 100, Parrot Park, CA 12345
+    </mj-text>
+
+    <mj-social mode="horizontal" align="center">
+      <mj-social-element
+        alt="twitter-logo"
+        icon-size="24px"
+        src="../../../images/social/light/twitter-logo-transparent-light.png"
+        href="#"
+      ></mj-social-element>
+      <mj-social-element
+        alt="facebook-logo"
+        icon-size="24px"
+        src="../../../images/social/light/facebook-logo-transparent-light.png"
+        href="#"
+      ></mj-social-element>
+      <mj-social-element
+        alt="instagram-logo"
+        icon-size="24px"
+        src="../../../images/social/light/instagram-logo-transparent-light.png"
+        href="#"
+      ></mj-social-element>
+      <mj-social-element
+        alt="dribbble-logo"
+        icon-size="24px"
+        src="../../../images/social/light/linkedin-logo-transparent-light.png"
+        href="#"
+      ></mj-social-element>
+    </mj-social>
+    <mj-spacer height="20px"></mj-spacer>
+    <mj-text mj-class="footer-text" align="center">
+      Update your
+      <a class="footer-link" href="https://google.com">email preferences</a> to choose the types of
+      emails you receive, or you can
+      <a href="https://google.com" class="footer-link"> unsubscribe </a>from all future emails.
+    </mj-text>
+  </mj-column>
+</mj-section>
+    <!-- CUSTOMIZE: FOOTER END -->
+  </mj-body>
+</mjml>

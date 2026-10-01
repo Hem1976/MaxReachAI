@@ -1,0 +1,157 @@
+<mjml lang="en">
+  <mj-head>
+    <mj-title>Welcome to [Coded Mails]</mj-title>
+    <mj-preview>Preview - Welcome to Coded Mails</mj-preview>
+    <mj-font
+      name="Poppins"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+    ></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Poppins, Helvetica, Arial, sans-serif"></mj-all>
+      <mj-button
+        font-size="18px"
+        line-height="30px"
+        background-color="#043768"
+        color="white"
+      ></mj-button>
+      <mj-text font-weight="300" color="#003366" font-size="20px" line-height="30px"></mj-text>
+      <mj-class name="footer-text" font-size="16px" font-weight="500" color="#ffffff" />
+      <mj-class
+        name="dark-text"
+        font-size="14px"
+        line-height="20px"
+        font-weight="300"
+        color="#043768"
+      />
+    </mj-attributes>
+    <mj-style inline="inline">
+      h1,
+      h2 {
+        margin: 0;
+        font-size: 32px;
+        line-height: 50px;
+        font-weight: 400;
+      }
+
+      a {
+        color: #00ad55;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      .footer-link {
+        color: #fff;
+        text-decoration: underline;
+      }
+    </mj-style>
+    <mj-style>
+      a,
+      span,
+      td,
+      th {
+        -webkit-font-smoothing: antialiased !important;
+        -moz-osx-font-smoothing: grayscale !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f3f3f5">
+    <mj-section>
+      <mj-column>
+        <mj-spacer></mj-spacer>
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-url="https://www.transparenttextures.com/patterns/brushed-alum.png"
+      background-color="#00AD55"
+      border-radius="4px 4px 0 0"
+    >
+      <mj-column padding="40px">
+        <mj-image align="center" width="150px" src="../../../images/logo-white.png"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="40px 10px" background-color="#ffffff" border-radius="0 0 4px 4px">
+      <mj-column>
+        <mj-text>
+          <p>Hello Jane,</p>
+        </mj-text>
+        <mj-text>
+          <p>
+            We’ve received a request to reset the password for the Coded Mails account associated
+            with hello@domain.com.
+          </p>
+        </mj-text>
+        <mj-text>
+          <p>You can reset your password by clicking the link below:</p>
+        </mj-text>
+
+        <mj-button align="center" href="https://google.com"> Reset your password </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#d5d5d5">
+      <mj-column>
+        <mj-text mj-class="dark-text">
+          <p>
+            If you did not request a new password, please let us know immediately by replying to
+            this email.
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#043768">
+  <mj-column width="100%">
+    <mj-text align="left" mj-class="footer-text">
+      <p>123 Medalling Jr., Suite 100, Parrot Park, CA 12345</p>
+    </mj-text>
+    <mj-text align="left" mj-class="footer-text">
+      <p>
+        Copyright © 2029 Coded Mails<br />
+        All rights reserved.
+      </p>
+    </mj-text>
+  </mj-column>
+  <mj-column width="100%">
+    <mj-social mode="horizontal" align="left">
+      <mj-social-element
+        alt="twitter-logo"
+        icon-size="18px"
+        src="../../../images/social/white/twitter-logo-transparent-white.png"
+        href="#"
+      ></mj-social-element>
+      <mj-social-element
+        alt="facebook-logo"
+        icon-size="18px"
+        src="../../../images/social/white/facebook-logo-transparent-white.png"
+        href="#"
+      ></mj-social-element>
+      <mj-social-element
+        alt="instagram-logo"
+        icon-size="18px"
+        src="../../../images/social/white/instagram-logo-transparent-white.png"
+        href="#"
+      ></mj-social-element>
+      <mj-social-element
+        alt="youtube-logo"
+        icon-size="18px"
+        src="../../../images/social/white/youtube-logo-transparent-white.png"
+        href="#"
+      ></mj-social-element>
+    </mj-social>
+
+    <mj-text mj-class="footer-text" align="left">
+      Update your
+      <a class="footer-link" href="https://google.com">email preferences</a> to choose the types of
+      emails you receive, or you can
+      <a class="footer-link" href="https://google.com"> unsubscribe </a>from all future emails.
+    </mj-text>
+  </mj-column>
+</mj-section>
+    <mj-section>
+  <mj-column>
+    <mj-spacer height="1px"></mj-spacer>
+  </mj-column>
+</mj-section>
+  </mj-body>
+</mjml>
